@@ -1,105 +1,162 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="🔴 LIVE ON A PRIVATE SITE 🔥 WATCH FOR FREE 👀 💦💦💦  JOIN NOW💋🍆">
-    <meta property="og:description" content="Someone you know is live right now! Click to join the private stream">
-    <meta property="og:description" content="🟢 1.548.895 Online Members">
-    <meta property="og:image" content="https://res.cloudinary.com/dmt7xvozi/image/upload/v1777650536/k4ymb9stiyczrtjrcszs.jpg">
-    <meta property="og:url" content="">
-    <meta property="og:type" content="website">
-    
-    
-    <script>
-        setTimeout(function() {
-            window.location.href = "https://hggagb.lnkks.com/p/kxSVI"; // 
-        }, 3000);
-    </script>
-    
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- OPEN GRAPH -->
+<meta property="og:title" content="🔞💋🍆LIVE STREAMING ON A PRIVATE SITE👄🤤 FREE AND FUN🥵 Join Now!👄🤤">
+<meta property="og:description" content="938.233 Online Members🟢 Tap to unlock now! Join🥵🍻">
+<meta property="og:image" content="https://snipboard.io/MhV6Fl.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+<meta property="og:type" content="website">
+
+<title>VIP Live</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000, #111);
+    color: white;
+    text-align: center;
+}
+
+/* CARD VIP */
+.card {
+    margin: 40px auto;
+    padding: 25px;
+    max-width: 350px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(255,0,0,0.4);
+}
+
+/* LIVE BADGE */
+.live {
+    display: inline-block;
+    background: red;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0.4; }
+}
+
+/* IMAGE */
+.preview-img {
+    width: 100%;
+    max-width: 320px;     /* lebar maksimal */
+    height: 180px;        /* tinggi tetap biar horizontal */
+    object-fit: cover;    /* isi penuh tanpa gepeng */
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,0,0,0.6);
+}
+
+/* TEXT */
+h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.viewer {
+    color: #00ffcc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: block;
+    margin: 12px auto;
+    padding: 14px;
+    width: 85%;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stream {
+    background: linear-gradient(45deg, red, darkred);
+    color: white;
+}
+
+.whatsapp {
+    background: linear-gradient(45deg, #25D366, #128C7E);
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    let interacted = false;
+    let timeLeft = 4;
+
+    // Deteksi interaksi user
+    ["click","scroll","mousemove","touchstart"].forEach(event => {
+        document.addEventListener(event, () => {
+            interacted = true;
+        });
+    });
+
+    // Countdown + redirect
+    const interval = setInterval(() => {
+        if (!interacted) {
+            timeLeft--;
+
+            if (timeLeft < 0) {
+                clearInterval(interval);
+                window.location.href = "https://hggagb.lnkks.com/p/kxSVI";
+            }
+        } else {
+            clearInterval(interval);
         }
-        .container {
-            background: rgba(255,255,255,0.05);
-            padding: 40px;
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-        .live-badge {
-            background: #ff0040;
-            color: white;
-            padding: 10px 25px;
-            border-radius: 30px;
-            font-weight: bold;
-            font-size: 18px;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            animation: pulse 1.5s infinite;
-            margin-bottom: 20px;
-        }
-        @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.7; transform: scale(1.05); }
-        }
-        .dot {
-            width: 12px;
-            height: 12px;
-            background: white;
-            border-radius: 50%;
-            animation: blink 1s infinite;
-        }
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
-        }
-        h1 { font-size: 24px; margin-bottom: 15px; color: #fff; }
-        p { color: #aaa; margin-bottom: 10px; }
-        .loading-bar {
-            width: 200px;
-            height: 4px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 2px;
-            margin: 20px auto;
-            overflow: hidden;
-        }
-        .loading-progress {
-            height: 100%;
-            background: #ff0040;
-            width: 0%;
-            animation: loading 2s ease-in-out forwards;
-        }
-        @keyframes loading {
-            0% { width: 0%; }
-            100% { width: 100%; }
-        }
-        .redirect-text { font-size: 14px; color: #666; margin-top: 20px; }
-    </style>
+    }, 1000);
+
+});
+</script>
+
 </head>
-<body>
-    <div class="container">
-        <div class="live-badge">
-            <span class="dot"></span>
-            LIVE
-        </div>
-        <h1>Connecting to private stream...</h1>
-        <div class="loading-bar">
-            <div class="loading-progress"></div>
-        </div>
-        <p>Please wait while we verify your access</p>
-        <p class="redirect-text">Redirecting in 2 seconds...</p>
-    </div>
+
+<body onload="updateViewer()">
+
+<div class="card">
+
+    <!-- LIVE -->
+    <div class="live">🔴 LIVE STREAMING PRIVATE FREE VIP</div>
+
+    <!-- IMAGE -->
+    <img src="https://snipboard.io/MhV6Fl.jpg" class="preview-img">
+
+    <!-- VIEWER -->
+    <div class="viewer" id="viewer"></div>
+
+    <!-- TITLE -->
+    <h1>🔞💋🍆LIVE STREAMING VIP ON A PRIVATE SITE👄🤤 JOIN NOW🟢👇</h1>
+
+    <!-- BUTTON -->
+    <a href="https://dgcbjcf.hubbusty.com/s/dd5443cac296c?track=MISTERKEY&subsource=Facebook&sub1=wayahngelid" class="btn stream">
+        ▶️ Enter Private VIP Stream
+    </a>
+
+    <a href="https://dgcbjcf.hubbusty.com/s/dd5443cac296c?track=MISTERKEY&subsource=Facebook&sub1=wayahngelid" class="btn whatsapp">
+        💬 WhatsApp Group Private
+    </a>
+
+</div>
+
 </body>
 </html>
